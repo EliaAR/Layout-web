@@ -3,4 +3,59 @@
   margin: 0;
   padding: 0; }
 
+.body {
+  font-family: "Roboto", sans-serif; }
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/cover.jpg) center;
+  background-size: cover;
+  color: #ffffff; }
+  .header__containerMenu {
+    background-color: #0271bc;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0; }
+  .header__menu {
+    background: url(../images/ico-menu.svg);
+    height: 14px;
+    width: 16px; }
+  .header__container {
+    display: flex;
+    justify-content: center;
+    min-width: 100vw;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 51vh;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .header__title {
+    text-transform: uppercase;
+    word-spacing: 100rem;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px; }
+  .header__subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px; }
+  .header__buttonContainer {
+    height: 45px;
+    width: 45px;
+    background-color: #ffffff;
+    border-radius: 50%; }
+  .header__button {
+    background: url(../images/ico-scroll-down.svg) no-repeat;
+    height: 11.7px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
 /*# sourceMappingURL=main.css.map */
