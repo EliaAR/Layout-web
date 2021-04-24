@@ -53,4 +53,25 @@
   &__heart {
     color: red;
   }
+
+  @media (min-width: 768px) {
+    &__box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    &__linksContainer {
+      padding-top: 0;
+      padding-bottom: 45px;
+      text-align: initial;
+    }
+
+    &__smallsContainer {
+      order: -1;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-top: 0;
+    }
+  }
 }

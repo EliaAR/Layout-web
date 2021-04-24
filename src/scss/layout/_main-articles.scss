@@ -1,8 +1,5 @@
 .looking {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 30px;
-  height: 376px;
+  padding: 30px 15px 45px 15px;
   line-height: 30px;
 
   &__small {
@@ -15,7 +12,6 @@
     text-transform: capitalize;
     padding-bottom: 15px;
     font-size: 24px;
-    width: 290px;
   }
 
   &__paragraph {
@@ -36,46 +32,56 @@
     justify-content: center;
     align-items: center;
   }
+  @media (min-width: 768px) {
+    & {
+      padding-bottom: 60px;
+    }
+    &__title {
+      font-size: 26px;
+      line-height: 45px;
+    }
+    &__paragraph {
+      font-size: 20px;
+    }
+  }
 }
 
 .reason {
-  padding-bottom: 60px;
   background-color: #eff9ff;
   line-height: 30px;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 55px 135px 135px 180px 45px;
+  grid-template-rows: 55px 135px 135px 180px 105px;
 
   &__title {
-    padding-top: 30px;
     font-size: 24px;
     text-transform: capitalize;
+    align-self: end;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
 
   &__article1 {
-    padding-top: 45px;
     font-size: 18px;
     width: 184px;
+    align-self: end;
     margin-left: calc(50% - 91px);
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
   &__article2 {
-    padding-top: 45px;
     font-size: 18px;
     width: 184px;
+    align-self: end;
     margin-left: calc(50% - 91px);
     grid-column: 1 / 2;
     grid-row: 3 / 4;
   }
   &__article3 {
-    padding-top: 45px;
-    padding-bottom: 45px;
     font-size: 18px;
     width: 184px;
+    align-self: center;
     margin-left: calc(50% - 91px);
     grid-column: 1 / 2;
     grid-row: 4 / 5;
@@ -83,6 +89,7 @@
   &__link {
     grid-column: 1 / 2;
     grid-row: 5 / 6;
+    align-self: start;
     width: 184px;
     margin-left: calc(50% - 91px);
     width: 184px;
@@ -97,5 +104,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    & {
+      grid-template-columns: 1fr 230px 1fr;
+      grid-template-rows: 60px 135px 150px;
+    }
+    &__title {
+      font-size: 26px;
+      line-height: 45px;
+      grid-column: 1 / 4;
+      grid-row: 1 / 2;
+    }
+    &__article1 {
+      margin-left: auto;
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    &__article2 {
+      margin-left: auto;
+      margin-right: auto;
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+
+    &__article3 {
+      margin-left: 0;
+      align-self: end;
+      grid-column: 3 / 4;
+      grid-row: 2 / 3;
+    }
+    &__link {
+      align-self: center;
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+    }
   }
 }

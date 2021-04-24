@@ -38,9 +38,8 @@
     width: 45px;
     background-color: $color-white;
     border-radius: 50%;
-    position: relative;
-    top: 45px;
-    left: calc(50% - 22.5px);
+    transform: translate(0, 45px);
+    margin-left: calc(50% - 22.5px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,5 +49,15 @@
     background: url(../images/ico-scroll-down.svg) no-repeat;
     height: 11.7px;
     width: 20px;
+  }
+
+  @media (min-width: 768px) {
+    &__title {
+      font-size: 80px;
+      line-height: 106px;
+    }
+    &__subtitle {
+      font-size: 24px;
+    }
   }
 }
