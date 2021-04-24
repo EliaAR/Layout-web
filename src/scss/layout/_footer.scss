@@ -42,11 +42,15 @@
   &__smallsContainer {
     color: $color-white;
     font-size: 14px;
-    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  &__small {
-    display: flex;
-    justify-content: center;
+  &__heart {
+    color: red;
   }
 }

@@ -58,10 +58,14 @@
   .footer__smallsContainer {
     color: #ffffff;
     font-size: 14px;
-    text-align: center; }
-  .footer__small {
+    padding-top: 30px;
+    padding-bottom: 45px;
     display: flex;
-    justify-content: center; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .footer__heart {
+    color: red; }
 
 .looking {
   padding-left: 15px;
