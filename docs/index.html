@@ -21,29 +21,32 @@
   <body class="body">
     <header class="header" id="header">
       <nav class="header__containerMenu">
-        <a class="header__menu" href="https://adalab.es/"></a>
+        <a class="header__menu" href="https://adalab.es/" title="menu">
+          <div class="header__burguer"></div>
+        </a>
       </nav>
-    </header>
-
-    <main class="main">
       <section class="hero">
         <section class="hero__container">
           <h1 class="hero__title">anonymous proxy</h1>
           <h2 class="hero__subtitle">In hac habitasse platea dictumst</h2>
         </section>
         <nav class="hero__buttonContainer">
-          <a class="hero__button" href="#reason"></a>
+          <a class="hero__button" href="#reason">
+            <div class="hero__arrowDown"></div>
+          </a>
         </nav>
       </section>
+    </header>
 
+    <main class="main">
       <article class="looking">
         <small class="looking__small">Insomnia tips</small>
         <h2 class="looking__title">Looking throught a window</h2>
         <p class="looking__paragraph">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum
-          dolor sit amet consectetur adipisicing elit.
+          Donec accumsan, nulla ut volutpat porttitor, quan odio tempus felis, at
+          luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
-        <a href="" class="looking__link">Go</a>
+        <a href="https://adalab.es/" class="looking__link">Go</a>
       </article>
 
       <article class="reason" id="reason">
@@ -60,36 +63,40 @@
           <h3 class="reason__subTitle">Morbi dictum</h3>
           <p class="reason__paragraph">Aliquam in dolor et dolor tincidunt.</p>
         </article>
-        <a href="" class="reason__link">More reason</a>
+        <a href="https://adalab.es/" class="reason__link">More reason</a>
       </article>
     </main>
 
     <footer class="footer">
       <nav class="footer__arrowContainer">
-        <a href="#header" class="footer__arrow"></a>
+        <a href="#header" class="footer__arrow">
+          <div class="footer__arrowUp"></div>
+        </a>
       </nav>
-      <nav class="footer__linksContainer">
-        <ul class="footer__ul">
-          <li><a href="https://adalab.es/" class="footer__link">articles</a></li>
-          <li><a href="https://adalab.es/" class="footer__link">books</a></li>
-          <li><a href="https://adalab.es/" class="footer__link">events</a></li>
-          <li><a href="https://adalab.es/" class="footer__link">reasons</a></li>
-          <li><a href="https://adalab.es/" class="footer__link">tips</a></li>
-        </ul>
-      </nav>
-      <nav class="footer__linksContainer">
-        <ul class="footer__ul">
-          <li><a href="https://adalab.es/" class="footer__link">Twitter</a></li>
-          <li><a href="https://adalab.es/" class="footer__link">Instagram</a></li>
-          <li>
-            <a href="https://adalab.es/" class="footer__link">Mastodon.social</a>
-          </li>
-        </ul>
-      </nav>
-      <section class="footer__smallsContainer">
-        <small>&copy; 2021</small>
-        <small>we <i class="fas fa-heart footer__heart"></i> components </small>
-      </section>
+      <div class="footer__box">
+        <nav class="footer__linksContainer">
+          <ul class="footer__ul">
+            <li><a href="https://adalab.es/" class="footer__link">articles</a></li>
+            <li><a href="https://adalab.es/" class="footer__link">books</a></li>
+            <li><a href="https://adalab.es/" class="footer__link">events</a></li>
+            <li><a href="https://adalab.es/" class="footer__link">reasons</a></li>
+            <li><a href="https://adalab.es/" class="footer__link">tips</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__linksContainer">
+          <ul class="footer__ul">
+            <li><a href="https://adalab.es/" class="footer__link">Twitter</a></li>
+            <li><a href="https://adalab.es/" class="footer__link">Instagram</a></li>
+            <li>
+              <a href="https://adalab.es/" class="footer__link">Mastodon.social</a>
+            </li>
+          </ul>
+        </nav>
+        <section class="footer__smallsContainer">
+          <small>&copy; 2021</small>
+          <small>we <i class="fas fa-heart footer__heart"></i> components </small>
+        </section>
+      </div>
     </footer>
 
   </body>
