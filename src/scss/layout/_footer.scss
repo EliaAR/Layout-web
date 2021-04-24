@@ -7,8 +7,16 @@
     background-color: $color-white;
     border-radius: 50%;
     box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.56);
-    transform: translate(0, -22.5px);
+    position: relative;
+    top: -22.5px;
     margin-left: calc(50% - 22.5px);
+  }
+
+  &__arrowContainer:hover {
+    animation-name: heartbeat;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
   }
 
   &__arrow {
