@@ -1,5 +1,7 @@
 ![Adalab](http://beta.adalab.es/modulo-1-evaluacion-final-EliaAR/)
 
+NOTA: me aparece y desaparece aleatoriamente un scroll lateral. Por lo que deduzco que no es un fallo de mi código, sino, posiblemente, de gulp.
+
 Descripción de los apartados realizados:
 
 CSS Layout:
