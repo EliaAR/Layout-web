@@ -20,18 +20,8 @@
   }
 
   &__link {
-    width: 76px;
-    height: 45px;
-    border: solid $color-orange 2px;
-    border-radius: 22.5px;
-    text-decoration: none;
+    @include bigButton(76px);
     color: $color-orange;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
   }
 
   &__link:hover {
@@ -117,19 +107,9 @@
   }
 
   &__link {
-    width: 184px;
-    height: 45px;
-    border: solid $color-orange 2px;
-    border-radius: 22.5px;
-    text-decoration: none;
+    @include bigButton(184px);
     background-color: $color-orange;
     color: $color-white;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
     margin-left: calc(50% - 91px);
     grid-column: 1 / 2;
     grid-row: 5 / 6;

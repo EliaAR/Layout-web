@@ -21,13 +21,12 @@
   animation-duration: 1s;
 }
 
-@mixin bigButton {
-  width: 76px;
+@mixin bigButton($width) {
+  width: $width;
   height: 45px;
   border: solid $color-orange 2px;
   border-radius: 22.5px;
   text-decoration: none;
-  color: $color-orange;
   font-size: 20px;
   font-weight: bold;
   display: flex;
