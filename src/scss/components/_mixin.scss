@@ -1,0 +1,37 @@
+@mixin containers($top) {
+  width: 45px;
+  background-color: $color-white;
+  border-radius: 50%;
+  position: relative;
+  top: $top;
+  left: calc(50% - 22.5px);
+}
+
+@mixin button {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin animation {
+  animation-name: heartbeat;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+@mixin bigButton {
+  width: 76px;
+  height: 45px;
+  border: solid $color-orange 2px;
+  border-radius: 22.5px;
+  text-decoration: none;
+  color: $color-orange;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}

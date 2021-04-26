@@ -117,11 +117,6 @@
   }
 
   &__link {
-    grid-column: 1 / 2;
-    grid-row: 5 / 6;
-    align-self: start;
-    width: 184px;
-    margin-left: calc(50% - 91px);
     width: 184px;
     height: 45px;
     border: solid $color-orange 2px;
@@ -135,6 +130,10 @@
     justify-content: center;
     align-items: center;
     transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+    margin-left: calc(50% - 91px);
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    align-self: start;
   }
 
   &__link:hover {
