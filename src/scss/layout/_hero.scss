@@ -5,11 +5,12 @@
       rgba(0, 0, 0, 1) 0%,
       rgba(255, 255, 255, 0.10407913165266103) 25%
     ),
-    url(../images/cover.jpg) center;
+    url(../images/cuba-habana.jpg) center;
   background-size: cover;
   color: $color-white;
 
   &__container {
+    text-shadow: 1px 3px 0 #7c7b7b, 1px 5px 5px #9b9999;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -28,7 +29,7 @@
 
   &__subtitle {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     padding-top: 10px;
   }
 
