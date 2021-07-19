@@ -61,25 +61,19 @@
       flex-direction: row;
       justify-content: space-around;
     }
-
     &__linksContainer {
       padding-top: 0;
       padding-bottom: 45px;
       text-align: initial;
     }
-
     &__smallsContainer {
-      order: -1;
       justify-content: flex-start;
       align-items: flex-start;
       padding-top: 0;
     }
   }
 
-  @media (min-width: 1200px) {
-    &__box {
-      justify-content: center;
-    }
+  @media (min-width: 1024px) {
     &__linksContainer {
       padding-left: 50px;
     }
