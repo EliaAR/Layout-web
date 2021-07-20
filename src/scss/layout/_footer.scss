@@ -1,5 +1,5 @@
 .footer {
-  background-color: #304268;
+  background-color: $color-quaternary;
   line-height: 1.88;
 
   &__arrowContainer {
@@ -36,12 +36,12 @@
 
   &__link {
     text-decoration: none;
-    color: $color-white;
+    color: $color-primary;
     display: block;
   }
 
   &__smallsContainer {
-    color: $color-white;
+    color: $color-primary;
     font-size: 14px;
     padding-top: 30px;
     padding-bottom: 45px;
@@ -64,11 +64,9 @@
     &__linksContainer {
       padding-top: 0;
       padding-bottom: 45px;
-      text-align: initial;
     }
     &__smallsContainer {
       justify-content: flex-start;
-      align-items: flex-start;
       padding-top: 0;
     }
   }

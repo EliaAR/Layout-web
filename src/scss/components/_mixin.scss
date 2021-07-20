@@ -1,6 +1,6 @@
 @mixin containers($top) {
   width: 45px;
-  background-color: $color-white;
+  background-color: $color-primary;
   border-radius: 50%;
   position: relative;
   top: $top;
@@ -24,7 +24,9 @@
 @mixin bigButton($width) {
   width: $width;
   height: 45px;
-  border: solid $color-orange 2px;
+  border: solid $color-secundary 2px;
+  background-color: $color-secundary;
+  color: $color-primary;
   border-radius: 22.5px;
   text-decoration: none;
   font-size: 20px;
