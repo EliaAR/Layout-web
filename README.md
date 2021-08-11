@@ -1,16 +1,20 @@
-El proyecto consiste en el desarrollo de una aplicación web para la práctica del manejo de HTML y CSS.
+# Developer Proxy
 
-A destacar:
+The project consists of development a web application for the practice of handling HTML and CSS.
 
-- Uso de position: fixed en el botón de hamburguesa (en la esquina superior izquierda)
-- Uso de CSS layout:
+### Stand out:
+
+- Use SASS
+- Use sematical HTML
+- Use of position: fixed on hamburger button (in upper left corner)
+- CSS usage layout:
   - CSS Flex
-  - CSS Grid, en dos variantes:
-    - Grid-template-columns y grid-template-rows + grid-column y grid-row
-    - Grid-template + grid-area
-- Uso de transiciones: en los botones "go" y "more reason"
-- Uso de animaciones: en los botones flecha del header y del footer. Éstas se han hecho en la pseudo clase :hover para que no resulten molestas
-- Enlaces a la propia aplicación y a páginas externas
-- Uso de @mixins
+  - CSS Grid, in two variants:
+    - Grid template columns and grid template rows + grid column and grid row
+    - Grid template + grid area
+- Use of transitions: when clicking on "go" and "more reason" buttons
+- Use of animations: in the arrow buttons of header and footer. These have been done in the pseudo class :hover for not be annoying
+- Links to the application itself and to external pages
+- Use SASS @mixins
 - Mobile first
-- Uso de una amplia variedad de propiedades CSS
+- Use of a wide variety of CSS properties
